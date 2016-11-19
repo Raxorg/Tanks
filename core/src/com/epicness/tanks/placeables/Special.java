@@ -1,4 +1,4 @@
-package com.epicness.placeables;
+package com.epicness.tanks.placeables;
 
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 

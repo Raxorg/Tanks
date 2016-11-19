@@ -1,7 +1,7 @@
-package com.epicness.placeables;
+package com.epicness.tanks.placeables;
 
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.epicness.assets.AssetManager;
+import com.epicness.tanks.assets.AssetManager;
 
 /**
  * Created by Luchox on 27/09/2015.

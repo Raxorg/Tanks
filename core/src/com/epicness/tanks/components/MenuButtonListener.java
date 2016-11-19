@@ -1,8 +1,8 @@
-package com.epicness.components;
+package com.epicness.tanks.components;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputAdapter;
-import com.epicness.assets.AssetManager;
+import com.epicness.tanks.assets.AssetManager;
 
 /**
  * Created by Luchox on 26/09/2015.

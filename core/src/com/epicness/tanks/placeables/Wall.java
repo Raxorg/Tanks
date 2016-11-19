@@ -1,6 +1,6 @@
-package com.epicness.placeables;
+package com.epicness.tanks.placeables;
 
-import com.epicness.assets.AssetManager;
+import com.epicness.tanks.assets.AssetManager;
 
 /**
  * Created by Luchox on 27/09/2015.

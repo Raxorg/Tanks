@@ -1,4 +1,4 @@
-package com.epicness.assets;
+package com.epicness.tanks.assets;
 
 import com.badlogic.gdx.graphics.Color;
 

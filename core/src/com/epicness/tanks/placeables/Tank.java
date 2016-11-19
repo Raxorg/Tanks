@@ -1,6 +1,6 @@
-package com.epicness.placeables;
+package com.epicness.tanks.placeables;
 
-import com.epicness.assets.AssetManager;
+import com.epicness.tanks.assets.AssetManager;
 import com.epicness.gamelogic.GameMaster;
 
 /**

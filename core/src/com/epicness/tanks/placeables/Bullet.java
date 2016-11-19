@@ -1,9 +1,9 @@
-package com.epicness.placeables;
+package com.epicness.tanks.placeables;
 
 import com.badlogic.gdx.utils.Timer;
-import com.epicness.assets.AssetManager;
-import com.epicness.gamelogic.GameMaster;
-import com.epicness.gamelogic.Team;
+import com.epicness.tanks.assets.AssetManager;
+import com.epicness.tanks.GameMaster;
+import com.epicness.tanks.gamelogic.Team;
 
 /**
  * Created by Luchox on 01/10/2015.

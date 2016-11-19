@@ -1,4 +1,4 @@
-package com.epicness.components;
+package com.epicness.tanks.components;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;

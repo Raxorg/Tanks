@@ -1,9 +1,9 @@
-package com.epicness.placeables;
+package com.epicness.tanks.placeables;
 
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.epicness.gamelogic.GameMaster;
-import com.epicness.gamelogic.Player;
-import com.epicness.map.Map;
+import com.epicness.tanks.gamelogic.GameMaster;
+import com.epicness.tanks.gamelogic.Player;
+import com.epicness.tanks.map.Map;
 
 /**
  * Created by Luchox on 27/09/2015.
