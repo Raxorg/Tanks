@@ -155,11 +155,7 @@ public class AssetManager {
         public Texture gameBarButtons;
         public TextureRegion defaultCellNormal, defaultCellGlow, blockedCellNormal, blockedCellGlow,
                 disabledCellNormal, disabledCellGlow, baseCellNormal, baseCellGlow;
-        public TextureRegion tankNormal, tankGlow, wallNormal3, wallGlow3, wallNormal2, wallGlow2,
-                wallNormal1, wallGlow1, bulletNormal, bulletGlow, baseNormal4, baseGlow4,
-                baseNormal3, baseGlow3, baseNormal2, baseGlow2, baseNormal1, baseGlow1,
-                refineryNormal2, refineryGlow2, refineryNormal1, refineryGlow1,
-                laboratoryNormal2, laboratoryGlow2, laboratoryNormal1, laboratoryGlow1;
+        public TextureRegion tank, wall3, wall2, wall1, bullet, base3, base2, base1;
         public TextureRegion pauseNormal, pauseGlow, buyNormal, buyGlow, endNormal, endGlow,
                 observeNormal, observeGlow;
 
@@ -171,51 +167,31 @@ public class AssetManager {
             potion = new Texture("Images/Game/Specials/potion.png");
 
             cells = new Texture("Images/Game/cells.png");
-            units = new Texture("Images/Game/Placeables/units.png");
+            units = new Texture("Images/stuff.png");
             structures = new Texture("Images/Game/Placeables/structures.png");
 
             gameBarButtons = new Texture("Images/Game/HUDButtons/gameBarButtons.png");
 
-            defaultCellNormal = new TextureRegion(cells, 0, 0, 64, 64);
-            defaultCellGlow = new TextureRegion(cells, 0, 64, 64, 64);
-            blockedCellNormal = new TextureRegion(cells, 64, 0, 64, 64);
-            blockedCellGlow = new TextureRegion(cells, 64, 64, 64, 64);
-            disabledCellNormal = new TextureRegion(cells, 128, 0, 64, 64);
-            disabledCellGlow = new TextureRegion(cells, 128, 64, 64, 64);
-            baseCellNormal = new TextureRegion(cells, 192, 0, 64, 64);
-            baseCellGlow = new TextureRegion(cells, 192, 64, 64, 64);
+            defaultCellNormal = new TextureRegion(cells, 0, 0, 32, 32);
+            defaultCellGlow = new TextureRegion(cells, 0, 32, 32, 32);
+            blockedCellNormal = new TextureRegion(cells, 32, 0, 32, 32);
+            blockedCellGlow = new TextureRegion(cells, 32, 32, 32, 32);
+            disabledCellNormal = new TextureRegion(cells, 128, 0, 32, 32);
+            disabledCellGlow = new TextureRegion(cells, 128, 32, 32, 32);
+            baseCellNormal = new TextureRegion(cells, 192, 0, 32, 32);
+            baseCellGlow = new TextureRegion(cells, 192, 32, 32, 32);
 
-            tankNormal = new TextureRegion(units, 0, 0, 64, 64);
-            tankGlow = new TextureRegion(units, 0, 64, 64, 64);
+            tank = new TextureRegion(units, 0, 32, 32, 32);
 
-            wallNormal3 = new TextureRegion(structures, 0, 0, 64, 64);
-            wallGlow3 = new TextureRegion(structures, 0, 64, 64, 64);
-            wallNormal2 = new TextureRegion(structures, 64, 0, 64, 64);
-            wallGlow2 = new TextureRegion(structures, 64, 64, 64, 64);
-            wallNormal1 = new TextureRegion(structures, 128, 0, 64, 64);
-            wallGlow1 = new TextureRegion(structures, 128, 64, 64, 64);
+            wall3 = new TextureRegion(structures, 0, 0, 32, 32);
+            wall2 = new TextureRegion(structures, 32, 0, 32, 32);
+            wall1 = new TextureRegion(structures, 64, 0, 32, 32);
 
-            baseNormal4 = new TextureRegion(structures, 192, 0, 64, 64);
-            baseGlow4 = new TextureRegion(structures, 192, 64, 64, 64);
-            baseNormal3 = new TextureRegion(structures, 256, 0, 64, 64);
-            baseGlow3 = new TextureRegion(structures, 256, 64, 64, 64);
-            baseNormal2 = new TextureRegion(structures, 320, 0, 64, 64);
-            baseGlow2 = new TextureRegion(structures, 320, 64, 64, 64);
-            baseNormal1 = new TextureRegion(structures, 384, 0, 64, 64);
-            baseGlow1 = new TextureRegion(structures, 384, 64, 64, 64);
+            base3 = new TextureRegion(structures, 0, 64, 32, 32);
+            base2 = new TextureRegion(structures, 32, 64, 32, 32);
+            base1 = new TextureRegion(structures, 64, 64, 32, 32);
 
-            refineryNormal2 = new TextureRegion(structures, 0, 128, 64, 64);
-            refineryGlow2 = new TextureRegion(structures, 0, 192, 64, 64);
-            refineryNormal1 = new TextureRegion(structures, 64, 128, 64, 64);
-            refineryGlow1 = new TextureRegion(structures, 64, 192, 64, 64);
-
-            laboratoryNormal2 = new TextureRegion(structures, 128, 128, 64, 64);
-            laboratoryGlow2 = new TextureRegion(structures, 128, 192, 64, 64);
-            laboratoryNormal1 = new TextureRegion(structures, 192, 128, 64, 64);
-            laboratoryGlow1 = new TextureRegion(structures, 192, 192, 64, 64);
-
-            bulletNormal = new TextureRegion(units, 64, 0, 64, 64);
-            bulletGlow = new TextureRegion(units, 64, 64, 64, 64);
+            bullet = new TextureRegion(units, 32, 32, 32, 32);
 
             pauseNormal = new TextureRegion(gameBarButtons, 0, 0, 512, 512);
             pauseGlow = new TextureRegion(gameBarButtons, 0, 512, 512, 512);

@@ -11,9 +11,8 @@ public abstract class Unit extends Placeable {
 
     protected int health;
 
-    protected Unit(TextureRegion regionNormal, TextureRegion regionGlow,
-                   int cubeCost, int techCost, int health) {
-        super(regionNormal, regionGlow, cubeCost, techCost);
+    protected Unit(TextureRegion texture, int cost, int health) {
+        super(texture, cost);
         this.health = health;
     }
 

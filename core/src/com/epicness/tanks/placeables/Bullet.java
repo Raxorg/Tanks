@@ -2,7 +2,7 @@ package com.epicness.tanks.placeables;
 
 import com.badlogic.gdx.utils.Timer;
 import com.epicness.tanks.assets.AssetManager;
-import com.epicness.tanks.GameMaster;
+import com.epicness.tanks.gamelogic.GameMaster;
 import com.epicness.tanks.gamelogic.Team;
 
 /**

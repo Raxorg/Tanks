@@ -1,5 +1,6 @@
 package com.epicness.tanks.placeables;
 
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.epicness.tanks.gamelogic.GameMaster;
 import com.epicness.tanks.gamelogic.Player;
@@ -11,26 +12,19 @@ import com.epicness.tanks.map.Map;
  */
 public abstract class Placeable {
 
-    protected TextureRegion regionNormal, regionGlow;
+    protected TextureRegion texture;
     protected float angle;
-    protected int cubeCost, techCost;
+    protected int cost;
     protected Map.Cell cell;
     protected Player owner;
 
-    protected Placeable(TextureRegion regionNormal, TextureRegion regionGlow,
-                        int cubeCost, int techCost) {
-        this.regionNormal = regionNormal;
-        this.regionGlow = regionGlow;
-        this.cubeCost = cubeCost;
-        this.techCost = techCost;
+    protected Placeable(TextureRegion texture, int cost) {
+        this.texture = texture;
+        this.cost = cost;
     }
 
-    public TextureRegion getRegionNormal() {
-        return regionNormal;
-    }
-
-    public TextureRegion getRegionGlow() {
-        return regionGlow;
+    public TextureRegion getTexture() {
+        return texture;
     }
 
     public float getAngle() {
@@ -41,12 +35,8 @@ public abstract class Placeable {
         this.angle = angle;
     }
 
-    public int getCubeCost() {
-        return cubeCost;
-    }
-
-    public int getTechCost() {
-        return techCost;
+    public int getCost() {
+        return cost;
     }
 
     public boolean place(Map.Cell cell) {

@@ -5,19 +5,23 @@ import com.epicness.tanks.placeables.Placeable;
 
 /**
  * Created by Kevin Viscafe on 19/11/2016.
+ * Created by Luis Frontanilla on 19/11/2016
  */
 public class Player {
 
     private Color color;
-    private int team;
+    private Team team;
     private int money;
 
+    public Player(Team team) {
+        this.team = team;
+    }
 
-    public int getTeam() {
+    public Team getTeam() {
         return team;
     }
 
-    public void setTeam(int team) {
+    public void setTeam(Team team) {
         this.team = team;
     }
 
