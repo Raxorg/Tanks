@@ -10,7 +10,7 @@ import com.epicness.tanks.gamelogic.GameMaster;
 public class Tank extends Unit {
 
     public Tank() {
-        super(AssetManager.game.tankNormal, AssetManager.game.tankGlow, 3, 0, 1);
+        super(AssetManager.game.tank, 3, 1);
     }
 
     public void fireBullet() {

@@ -15,7 +15,7 @@ public class Bullet extends Special {
     private Timer timer;
 
     public Bullet(Tank tank) {
-        super(AssetManager.game.bulletNormal, AssetManager.game.bulletGlow, 0, 0);
+        super(AssetManager.game.bullet, 0);
 
         xPos = tank.cell.getColumn() * GameMaster.getInstance().getMap().getCellSize();
         yPos = tank.cell.getRow() * GameMaster.getInstance().getMap().getCellSize();

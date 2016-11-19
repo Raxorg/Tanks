@@ -8,22 +8,16 @@ import com.epicness.tanks.assets.AssetManager;
  */
 public class Base extends Structure {
     public Base() {
-        super(AssetManager.game.baseNormal4, AssetManager.game.baseGlow4, 0, 0, 4);
+        super(AssetManager.game.base3, 0, 3);
     }
 
     public void bulletCollision(Bullet bullet) {
         super.bulletCollision(bullet);
-        if (health == 3) {
-            regionNormal = AssetManager.game.baseNormal3;
-            regionGlow = AssetManager.game.baseGlow3;
-        }
         if (health == 2) {
-            regionNormal = AssetManager.game.baseNormal2;
-            regionGlow = AssetManager.game.baseGlow2;
-        }
+            region = AssetManager.game.base2;
+        } else
         if (health == 1) {
-            regionNormal = AssetManager.game.baseNormal1;
-            regionGlow = AssetManager.game.baseGlow1;
+            region = AssetManager.game.base1;
         }
     }
 }

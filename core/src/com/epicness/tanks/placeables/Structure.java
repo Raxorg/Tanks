@@ -11,9 +11,8 @@ public abstract class Structure extends Placeable {
 
     protected int health;
 
-    protected Structure(TextureRegion regionNormal, TextureRegion regionGlow,
-                        int cubeCost, int techCost, int health) {
-        super(regionNormal, regionGlow, cubeCost, techCost);
+    protected Structure(TextureRegion region, int cost, int health) {
+        super(region, cost);
         this.health = health;
     }
 

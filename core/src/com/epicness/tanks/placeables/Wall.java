@@ -9,18 +9,16 @@ import com.epicness.tanks.assets.AssetManager;
 public class Wall extends Structure {
 
     public Wall() {
-        super(AssetManager.game.wallNormal3, AssetManager.game.wallGlow3, 2, 0, 3);
+        super(AssetManager.game.wall3, 2, 3);
     }
 
     public void bulletCollision(Bullet bullet) {
         super.bulletCollision(bullet);
         if (health == 2) {
-            regionNormal = AssetManager.game.wallNormal2;
-            regionGlow = AssetManager.game.wallGlow2;
+            region = AssetManager.game.wall2;
         }
         if (health == 1) {
-            regionNormal = AssetManager.game.wallNormal1;
-            regionGlow = AssetManager.game.wallGlow1;
+            region = AssetManager.game.wall1;
         }
     }
 }
