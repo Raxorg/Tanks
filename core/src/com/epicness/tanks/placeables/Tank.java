@@ -1,7 +1,7 @@
 package com.epicness.tanks.placeables;
 
 import com.epicness.tanks.assets.AssetManager;
-import com.epicness.gamelogic.GameMaster;
+import com.epicness.tanks.gamelogic.GameMaster;
 
 /**
  * Created by Luchox on 27/09/2015.

@@ -7,9 +7,22 @@ import com.badlogic.gdx.graphics.Color;
  */
 public class Player {
 
-    Color color;
-    int team;
+    private Color color;
+    private int team;
 
+    public int getTeam() {
+        return team;
+    }
 
+    public void setTeam(int team) {
+        this.team = team;
+    }
 
+    public Color getColor() {
+        return color;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
+    }
 }
